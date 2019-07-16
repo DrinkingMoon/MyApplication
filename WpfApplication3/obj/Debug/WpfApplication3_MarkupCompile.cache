@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\workspace\VisualStudioProjects\MyApplication\WpfApplication3\obj\Debug\
+D:\workSpace\VisualStudioProjects\MyApplication\WpfApplication3\obj\Debug\
 WpfApplication3
 none
 false
 DEBUG;TRACE
-E:\workspace\VisualStudioProjects\MyApplication\WpfApplication3\App.xaml
+D:\workSpace\VisualStudioProjects\MyApplication\WpfApplication3\App.xaml
 12-1483621106
 
-161737411747
-13-1165414965
+17-1243748193
+13-487424218
 BindingADODoNet.xaml;BindingApplication1.xaml;BindingLinqWindow.xaml;BindingObjectDataProviderWindow.xaml;BindingObservableCollectionWindow.xaml;BindingRelativeSourceWindow.xaml;BindingXml.xaml;FindDataTemplateControl.xaml;MainWindow.xaml;StyleControlTemplateWindow.xaml;TemplateWindow.xaml;ValidationWindow.xaml;
 
-False
+True
 

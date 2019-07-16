@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,52 +19,49 @@ namespace WinformThread
         {
             InitializeComponent();
         }
-        //创建一个委托，是为访问TextBox控件服务的。
-        public delegate void UpdateTxt(string msg);
-        //定义一个委托变量
-        public UpdateTxt updateTxt;
-
-        //修改TextBox值的方法。
-        public void UpdateTxtMethod(string msg)
+        private async void btnClick_Click(object sender, EventArgs e)
         {
-            richTextBox1.AppendText(msg + "\r\n");
-            richTextBox1.ScrollToCaret();
+            long length = await AccessWebAsync();
+
+            // 这里可以做一些不依赖回复的操作 
+            OtherWork();
+
+            this.richTextBox1.Text += String.Format("\n 回复的字节长度为:  {0}.\r\n", length);
+            txbMainThreadID.Text = Thread.CurrentThread.ManagedThreadId.ToString();
         }
 
-        void WriteStr(int k)
+        // 使用C# 5.0中提供的async 和await关键字来定义异步方法 
+        // 从代码中可以看出C#5.0 中定义异步方法就像定义同步方法一样简单。 
+        // 使用async 和await定义异步方法不会创建新线程, 
+        // 它运行在现有线程上执行多个任务. 
+        // 此时不知道大家有没有一个疑问的？在现有线程上(即UI线程上)运行一个耗时的操作时， 
+        // 为什么不会堵塞UI线程的呢？ 
+        // 这个问题的答案就是 当编译器看到await关键字时，线程会 
+        private async Task<long> AccessWebAsync()
         {
-            this.BeginInvoke(updateTxt, " 子线程 读数" + k.ToString() + " 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
-        }
+            MemoryStream content = new MemoryStream();
 
-        //此为在非创建线程中的调用方法，其实是使用TextBox的Invoke方法。
-        void ThreadMethodTxt(int n)
-        {
-            this.BeginInvoke(updateTxt, " 子线程 开始 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
-
-            for (int k = 1; k <= n; k++)
+            // 对MSDN发起一个Web请求 
+            HttpWebRequest webRequest = WebRequest.Create("http://msdn.microsoft.com/zh-cn/") as HttpWebRequest;
+            if (webRequest != null)
             {
-                Thread.Sleep(1000);
-                WriteStr(k);
-            };
+                // 返回回复结果 
+                using (WebResponse response = await webRequest.GetResponseAsync())
+                {
+                    using (Stream responseStream = response.GetResponseStream())
+                    {
+                        await responseStream.CopyToAsync(content);
+                    }
+                }
+            }
 
-            this.BeginInvoke(updateTxt, " 子线程 结束 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
-        }
-        //开启线程
-        private void button1_Click(object sender, EventArgs e)
-        {
-            richTextBox1.Text = "";
-            UpdateTxtMethod("主线程 开始 " + "线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
-
-            //ThreadMethodTxt(Convert.ToInt32(textBox1.Text.Trim()));
-
-            Task.Run(() => { ThreadMethodTxt(Convert.ToInt32(textBox1.Text.Trim())); });
-
-            UpdateTxtMethod("主线程 结束 " + "线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
+            txbAsynMethodID.Text = Thread.CurrentThread.ManagedThreadId.ToString();
+            return content.Length;
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void OtherWork()
         {
-            updateTxt = new UpdateTxt(UpdateTxtMethod);
+            this.richTextBox1.Text += "\r\n等待服务器回复中.................\n";
         }
     }
 }

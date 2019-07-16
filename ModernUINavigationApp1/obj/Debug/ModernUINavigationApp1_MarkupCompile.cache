@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\workspace\VisualStudioProjects\MyApplication\ModernUINavigationApp1\obj\Debug\
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUINavigationApp1\obj\Debug\
 ModernUINavigationApp1
 none
 false
 DEBUG;TRACE
-E:\workspace\VisualStudioProjects\MyApplication\ModernUINavigationApp1\App.xaml
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUINavigationApp1\App.xaml
 5-1202269702
 
-82080410482
-13-681728831
+9-900749458
+13817036967
 MainWindow.xaml;Pages\Settings\About.xaml;Pages\Settings\Appearance.xaml;Pages\Home.xaml;Pages\SettingsPage.xaml;
 
 False

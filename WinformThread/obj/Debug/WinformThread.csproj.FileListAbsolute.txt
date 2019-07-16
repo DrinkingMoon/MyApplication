@@ -10,3 +10,15 @@ E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformT
 E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.exe
 E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.pdb
 E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.Form3.resources
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\bin\Debug\WinformThread.exe.config
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\bin\Debug\WinformThread.exe
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\bin\Debug\WinformThread.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.csprojAssemblyReference.cache
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.Form1.resources
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.Form3.resources
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.Form2.resources
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.Properties.Resources.resources
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.csproj.GenerateResource.cache
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.csproj.CoreCompileInputs.cache
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.exe
+D:\workSpace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.pdb

@@ -5,3 +5,9 @@ E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\D
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\DesignModel_Observer.csproj.CoreCompileInputs.cache
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\DesignModel_Observer.exe
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\DesignModel_Observer.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Observer\bin\Debug\DesignModel_Observer.exe.config
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Observer\bin\Debug\DesignModel_Observer.exe
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Observer\bin\Debug\DesignModel_Observer.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\DesignModel_Observer.csproj.CoreCompileInputs.cache
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\DesignModel_Observer.exe
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\DesignModel_Observer.pdb

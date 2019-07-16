@@ -56,6 +56,8 @@ namespace ConsoleThread
         //    }
         //}
 
+
+
         static void Main(string[] args)
         {
             Console.WriteLine("我是主线程，线程ID：" + Thread.CurrentThread.ManagedThreadId);
@@ -68,39 +70,63 @@ namespace ConsoleThread
             Console.WriteLine(strRes.Result);
 
             //task->async异步方法和await，主线程碰到await时会立即返回，继续以非阻塞形式执行主线程下面的逻辑  
-            Console.WriteLine("---------------------------------");
+            Console.WriteLine("--------------------------------------------");
             Console.WriteLine("①我是主线程，开始 线程ID：{0}", Thread.CurrentThread.ManagedThreadId);
             var testResult = TestAsync();
             Console.WriteLine("①我是主线程，结束 线程ID：{0}", Thread.CurrentThread.ManagedThreadId);
-            Console.WriteLine("---------------------------------");
+            Console.WriteLine("--------------------------------------------");
             Console.ReadKey();
         }
 
         static async Task TestAsync()
         {
-            Console.WriteLine("②调用GetReturnResult()之前，线程ID：{0}。当前时间：{1}", Thread.CurrentThread.ManagedThreadId,
+
+            Console.WriteLine("②调用GetReturnResult()之前，线程ID：{0}。当前时间：{1}", 
+                Thread.CurrentThread.ManagedThreadId,
                 DateTime.Now.ToString("yyyy-MM-dd hh:MM:ss"));
-            var name = GetReturnResult();
-            Console.WriteLine("④调用GetReturnResult()之后，线程ID：{0}。当前时间：{1}", Thread.CurrentThread.ManagedThreadId,
+
+            var name = GetReturnResult1();
+            var name2 = GetReturnResult2();
+
+            Console.WriteLine("④调用GetReturnResult()之后，线程ID：{0}。当前时间：{1}", 
+                Thread.CurrentThread.ManagedThreadId,
                 DateTime.Now.ToString("yyyy-MM-dd hh:MM:ss"));
-            Console.WriteLine("⑥得到GetReturnResult()方法的结果一：{0}。当前时间：{1}", await name,
+
+            Console.WriteLine("⑥得到GetReturnResult()1：{0}。当前时间：{1}",
+                await name,
                 DateTime.Now.ToString("yyyy-MM-dd hh:MM:ss"));
-            Console.WriteLine("⑥得到GetReturnResult()方法的结果二：{0}。当前时间：{1}", name.GetAwaiter().GetResult(),
+
+            Console.WriteLine("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+
+            Console.WriteLine("⑥得到GetReturnResult()2：{0}。当前时间：{1}",
+                name2.GetAwaiter().GetResult(),
                 DateTime.Now.ToString("yyyy-MM-dd hh:MM:ss"));
         }
 
-        static async Task<string> GetReturnResult()
+        static async Task<string> GetReturnResult1()
         {
             Console.WriteLine("③执行Task.Run之前, 线程ID：{0}", Thread.CurrentThread.ManagedThreadId);
-            string str= await Task.Run(() =>
-            {
-                Thread.Sleep(5000);
-                Console.WriteLine("⑤GetReturnResult()方法里面线程ID: {0}", Thread.CurrentThread.ManagedThreadId);
-                return "我是返回值";
-            });
 
-            Console.WriteLine("**************************");
+            string str = await Task.Run(() =>
+             {
+                 Thread.Sleep(5000);
+                 Console.WriteLine("⑤GetReturnResult1()方法里面线程ID: {0}", Thread.CurrentThread.ManagedThreadId);
+                 return "我是返回值Name1";
+             });
 
+            Console.WriteLine("*******************************************");
+            return str;
+        }
+
+        static async Task<string> GetReturnResult2()
+        {
+            Console.WriteLine("③执行Task.Run之前, 线程ID：{0}", Thread.CurrentThread.ManagedThreadId);
+
+            await Task.Delay(1000);
+            string str = "我是返回值Name2";
+            Console.WriteLine("⑤GetReturnResult2()方法里面线程ID: {0}", Thread.CurrentThread.ManagedThreadId);
+
+            Console.WriteLine("*******************************************");
             return str;
         }
 
