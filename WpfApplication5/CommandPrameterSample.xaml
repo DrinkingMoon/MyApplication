@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApplication5.CommandPrameterSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:WpfApplication5"
+        Title="CommandPrameterSample" Height="300" Width="300" WindowStyle="ToolWindow" Background="LightBlue">
+    <Window.CommandBindings>
+        <CommandBinding Command="New"  CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+    </Window.CommandBindings>
+
+    <Grid x:Name="gridRoot" Margin="6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="24"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Name:" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="0"/>
+        <TextBox x:Name="nameTextBox" Margin="60,0,0,0" Grid.Row="0"/>
+        <StackPanel Grid.Row="2">
+            <Button x:Name="btnTeacher" Content="New Teacher"/>
+        </StackPanel>
+        <StackPanel Grid.Row="4">
+            <Button x:Name="btnStudent" Content="New Student"/>
+        </StackPanel>
+        <ListBox x:Name="listBoxNewItems" Grid.Row="6"/>
+    </Grid>
+</Window>

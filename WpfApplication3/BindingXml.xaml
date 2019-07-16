@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApplication3.BindingXml"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BindingXml" Height="300" Width="300">
+    <StackPanel>
+        <ListView Name="lstView" Height="130" Margin="5">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" Width="80" DisplayMemberBinding="{Binding XPath=@Id}"/>
+                    <GridViewColumn Header="Job" Width="120" DisplayMemberBinding="{Binding XPath=Job}"/>
+                    <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding XPath=Name}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Load" BorderBrush="Black" Height="25" Margin="5" Click="Button_Click"/>
+    </StackPanel>
+</Window>

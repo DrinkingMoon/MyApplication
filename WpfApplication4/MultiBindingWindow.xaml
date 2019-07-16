@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfApplication4.MultiBindingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MultiBindingWindow" Height="180" Width="300">
+    <StackPanel Background="LightBlue">
+        <TextBox Name="txt1" Height="23" Margin="5"/>
+        <TextBox Name="txt2" Height="23" Margin="5,0"/>
+        <TextBox Name="txt3" Height="23" Margin="5"/>
+        <TextBox Name="txt4" Height="23" Margin="5,0"/>
+        <Button Name="btn1" Height="20" Width="80" Content="Submit" Margin="5"/>
+    </StackPanel>
+</Window>

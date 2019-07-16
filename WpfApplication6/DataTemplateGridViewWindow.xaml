@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfApplication6.DataTemplateGridViewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication6"
+        xmlns:lib="clr-namespace:ClassLibrary1;assembly=ClassLibrary1"
+        xmlns:sys="clr-namespace:System.Collections;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="DataTemplateGridViewWindow" Height="250" Width="349" Background="Yellow">
+    <Window.Resources>
+        <sys:ArrayList x:Key="lstStudent">
+            <lib:Student Id="1" Name="Timoty Liu" Skill="WPF" HasJob="True"/>
+            <lib:Student Id="2" Name="JinBin Cao" Skill="BI/SQL" HasJob="True"/>
+            <lib:Student Id="3" Name="MingGui Li" Skill="Writing" HasJob="False"/>
+            <lib:Student Id="4" Name="ChuanHai Cao" Skill="Java" HasJob="True"/>
+            <lib:Student Id="5" Name="GeFei Cao" Skill="Writing" HasJob="False"/>
+            <lib:Student Id="6" Name="YuJie Bao" Skill="ASP.NET" HasJob="True"/>
+            <lib:Student Id="7" Name="YuPin Li" Skill="MVC" HasJob="True"/>
+        </sys:ArrayList>
+
+        <DataTemplate x:Key="nameDT">
+            <TextBlock x:Name="tbName" Text="{Binding Name}" GotFocus="TbName_GotFocus"/>
+        </DataTemplate>
+
+        <DataTemplate x:Key="skillDT">
+            <TextBox x:Name="tbSkill" Text="{Binding Skill}" GotFocus="TbName_GotFocus"/>
+        </DataTemplate>
+
+        <DataTemplate x:Key="hjDT">
+            <CheckBox x:Name="cbHj" IsChecked="{Binding HasJob}"/>
+        </DataTemplate>
+    </Window.Resources>
+    <StackPanel Margin="5">
+        <ListView x:Name="lstView" ItemsSource="{Binding Source={StaticResource lstStudent}}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}"/>
+                    <GridViewColumn Header="姓名" CellTemplate="{StaticResource nameDT}"/>
+                    <GridViewColumn Header="技术" CellTemplate="{StaticResource skillDT}"/>
+                    <GridViewColumn Header="工作" CellTemplate="{StaticResource hjDT}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </StackPanel>
+</Window>

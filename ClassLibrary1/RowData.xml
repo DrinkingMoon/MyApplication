@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StudentList>
+  <!--<Student Id="1">
+    <Name>Tim</Name>
+    <Age>29</Age>
+  </Student>
+  <Student Id="2">
+    <Name>Tom</Name>
+    <Age>26</Age>
+  </Student>
+  <Student Id="3">
+    <Name>Vina</Name>
+    <Age>31</Age>
+  </Student>
+  <Student Id="4">
+    <Name>Emily</Name>
+    <Age>78</Age>
+  </Student>
+  <Teacher Id="1">
+    <Job>Math</Job>
+  </Teacher>
+  <Teacher Id="2">
+    <Job>News</Job>
+  </Teacher>
+  <Teacher Id="3">
+    <Job>File</Job>
+  </Teacher>-->
+  <Class>
+    <Student Id ="1" Name ="Tim" Age="29"/>
+    <Student Id ="2" Name ="Tom" Age="26"/>
+    <Student Id ="3" Name ="Ketty" Age="31"/>
+    <Student Id ="4" Name ="Davie" Age="45"/>
+    <Student Id ="5" Name ="Jim" Age="37"/>
+    <Student Id ="6" Name ="Allen" Age="21"/>
+  </Class>
+</StudentList>

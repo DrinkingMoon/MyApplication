@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApplication6.ControlTemplateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication6"
+        mc:Ignorable="d"
+        Background="LightBlue"
+        Title="ControlTemplateWindow" Height="142" Width="249">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="4" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="tb3" Grid.Row="0" Grid.Column="0" Text="UserName" Margin="5" />
+        <TextBox Grid.Row="0" Grid.Column="2"  Margin="5" Style="{DynamicResource RoundCornerTextBoxStyle}"/>
+        <TextBlock x:Name="tb4" Grid.Row="2" Grid.Column="0" Text="Password" Margin="5" />
+        <TextBox Grid.Row="2" Grid.Column="2"  Margin="5" Style="{DynamicResource RoundCornerTextBoxStyle}"/>
+        <Button x:Name="btnSub" Content="Submit" Grid.Row="4" 
+                Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" 
+                Width="60" Style="{DynamicResource RoundCornerButtonStyle}"/>
+    </Grid>
+</Window>

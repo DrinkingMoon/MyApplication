@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApplication4.RoutedEventCustom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loacl="clr-namespace:WpfApplication4"
+        Title="RoutedEventCustom" Height="380" Width="300"
+        x:Name="Windows"  loacl:TimeButton.ReportTime ="ReportTimeHandler" >
+    <Grid x:Name="grid_1" loacl:TimeButton.ReportTime ="ReportTimeHandler" >
+        <Grid x:Name="grid_2" loacl:TimeButton.ReportTime ="ReportTimeHandler" >
+            <Grid x:Name="grid_3" loacl:TimeButton.ReportTime ="ReportTimeHandler" >
+                <StackPanel x:Name="stkPanel_1" loacl:TimeButton.ReportTime ="ReportTimeHandler" >
+                    <ListBox x:Name="lstBox" Height="200" loacl:TimeButton.ReportTime ="ReportTimeHandler"  />
+                    <loacl:TimeButton Content="报时" x:Name="btnReportTime" loacl:TimeButton.ReportTime="ReportTimeHandler"/>
+                    <loacl:MyUserControl x:Name="myUserControl" Margin="10"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

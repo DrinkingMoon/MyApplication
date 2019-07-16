@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApplication1.XmlnsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lib="clr-namespace:ClassLibrary1;assembly=ClassLibrary1"
+        xmlns:loacl ="clr-namespace:WpfApplication1"
+        Title="XmlnsWindow" Height="122" Width="421" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Window.Resources>
+        <loacl:MarkupWindow x:Key="showWindow"/>
+    </Window.Resources>
+    <Grid>
+        <lib:UserControl1 x:Name="userCountrol1"/>
+    </Grid>
+</Window>

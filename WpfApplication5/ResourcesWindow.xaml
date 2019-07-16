@@ -1,0 +1,56 @@
+﻿<Window x:Class="WpfApplication5.ResourcesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication5"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:Control ="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:locolPro ="clr-namespace:WpfApplication5.Properties"
+        mc:Ignorable="d"
+        Title="ResourcesWindow" Height="561" Width="414" Loaded="Window_Loaded">
+    <Window.Resources>
+        <ResourceDictionary>
+            <sys:String x:Key="str">
+                沉舟侧伴千帆过，病树前头万木春
+            </sys:String>
+            <sys:Double x:Key="dbl">3.1415926</sys:Double>
+            <TextBlock x:Key="tb1" Text="海上生明月"/>
+            <TextBlock x:Key="tb2" Text="海上生明月"/>
+        </ResourceDictionary>
+    </Window.Resources>
+    <StackPanel>
+        <TextBlock Text="{StaticResource str}" Margin="5"/>
+        <Control:NumericUpDown x:Name="Test"
+                               Margin="5"
+                                        Maximum="100000"
+                                        Minimum="0"
+                                        NumericInputMode="All"
+                                        TextAlignment="Left"
+                                        Value="{StaticResource dbl}" Interval="0.01" StringFormat="0.00" />
+        <TextBox x:Name="tb" Margin="5"/>
+
+        <Button x:Name="btn1" Content="{StaticResource tb1}" Margin="5"/>
+        <Button x:Name="btn2" Content="{DynamicResource tb2}" Margin="5"/>
+        <Button x:Name="btn3" Content="Update" Margin="5" Click="Btn3_Click"/>
+        <Grid Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="4"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="4" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="tb3" Grid.Row="0" Grid.Column="0" Text="UserName" Margin="5" />
+            <TextBox Grid.Row="0" Grid.Column="2"  Margin="5"/>
+            <TextBlock x:Name="tb4" Grid.Row="2" Grid.Column="0" Text="Password" Margin="5" />
+            <TextBox Grid.Row="2" Grid.Column="2"  Margin="5"/>
+        </Grid>
+        <Grid>
+            <Image x:Name="img" Source="Img/DogsA2_Cici.jpg" Stretch="Fill"/>
+        </Grid>
+    </StackPanel>
+</Window>

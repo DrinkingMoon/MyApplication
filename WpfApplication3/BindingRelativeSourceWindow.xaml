@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApplication3.BindingRelativeSourceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BindingRelativeSourceWindow" Height="300" Width="300">
+    <Grid Name="g1" Background="Red" Margin="10">
+        <DockPanel Name="d1" Background="Orange" Margin="10">
+            <Grid Name="g2" Background="Yellow" Margin="10">
+                <Button x:Name="btn1" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
+                    <DockPanel Name="d2" Background="LawnGreen" Margin="5">
+                        <TextBox Name="txt1" Width="70" FontSize="24" Margin="5" 
+                             Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorLevel=1,AncestorType={x:Type Button}}, Path=Content.Children[1].Text}"/>
+                        <TextBlock x:Name="tb1" Text="OK" Margin="5" Background="LightBlue"/>
+                    </DockPanel>
+                </Button>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>

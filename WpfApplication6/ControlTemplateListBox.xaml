@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApplication6.ControlTemplateListBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication6"
+        mc:Ignorable="d"
+        Title="ControlTemplateListBox" Height="162" Width="249">
+    <Grid Margin="5">
+        <ListBox>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <TextBlock Text="Allan"/>
+            <TextBlock Text="Kevin"/>
+            <TextBlock Text="Drew"/>
+            <TextBlock Text="Timothy"/>
+        </ListBox>
+    </Grid>
+</Window>
