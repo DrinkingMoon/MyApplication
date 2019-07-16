@@ -1,0 +1,14 @@
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\UserControl1.g.cs
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\ClassLibrary1_MarkupCompile.cache
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\ClassLibrary1_MarkupCompile.lref
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\UserControl1.baml
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\ClassLibrary1.g.resources
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\ClassLibrary1.Properties.Resources.resources
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.GenerateResource.cache
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+E:\workspace\VisualStudioProjects\MyApplication\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\bin\Debug\WinformThread.exe.config
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\bin\Debug\WinformThread.exe
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\bin\Debug\WinformThread.pdb
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.csprojAssemblyReference.cache
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.Form1.resources
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.Form2.resources
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.Properties.Resources.resources
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.csproj.GenerateResource.cache
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.csproj.CoreCompileInputs.cache
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.exe
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.pdb
+E:\workspace\VisualStudioProjects\MyApplication\WinformThread\obj\Debug\WinformThread.Form3.resources

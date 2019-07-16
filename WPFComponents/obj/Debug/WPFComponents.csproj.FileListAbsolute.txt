@@ -1,0 +1,14 @@
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\bin\Debug\WPFComponents.dll
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\bin\Debug\WPFComponents.pdb
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\WPFComponents.csprojAssemblyReference.cache
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\Themes\Generic.baml
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\WPFComponents_MarkupCompile.cache
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\WPFComponents_MarkupCompile.lref
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\Thermometer\Thermometer.baml
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\WPFComponents.g.resources
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\WPFComponents.Properties.Resources.resources
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\WPFComponents.csproj.GenerateResource.cache
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\WPFComponents.csproj.CoreCompileInputs.cache
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\WPFComponents.dll
+E:\workspace\VisualStudioProjects\MyApplication\WPFComponents\obj\Debug\WPFComponents.pdb

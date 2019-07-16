@@ -17,64 +17,47 @@ namespace WinformThread
         {
             InitializeComponent();
         }
-
         //创建一个委托，是为访问TextBox控件服务的。
         public delegate void UpdateTxt(string msg);
         //定义一个委托变量
         public UpdateTxt updateTxt;
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            richTextBox1.Text = "";
-            UpdateTxtMethod("主线程 开始 " + "线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
-
-            for (int i = 0; i < 3; i++)
-            {
-                //Task task = Task.Run( async() => { var k= await ThreadMethodTxt(Convert.ToInt32(textBox1.Text.ToString())); });
-                ThreadMethodTxt(Convert.ToInt32(textBox1.Text.ToString()));
-            }
-
-            UpdateTxtMethod("主线程 结束 " + "线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
-        }
-        void UpdateTxtMethod(string msg)
+        //修改TextBox值的方法。
+        public void UpdateTxtMethod(string msg)
         {
             richTextBox1.AppendText(msg + "\r\n");
             richTextBox1.ScrollToCaret();
         }
 
-        //此为在非创建线程中的调用方法，其实是使用TextBox的Invoke方法。
-        async Task<int> ThreadMethodTxt(int n)
+        void WriteStr(int k)
         {
-            //UpdateTxtMethod("子线程 开始 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
+            this.BeginInvoke(updateTxt, " 子线程 读数" + k.ToString() + " 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
+        }
 
-            //for (int i = 0; i < n; i++)
-            //{
-            //    await Task.Delay(1000);
-            //    UpdateTxtMethod("子线程 读数" + i.ToString() + " 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
-            //}
+        //此为在非创建线程中的调用方法，其实是使用TextBox的Invoke方法。
+        void ThreadMethodTxt(int n)
+        {
+            this.BeginInvoke(updateTxt, " 子线程 开始 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
 
-            //UpdateTxtMethod("子线程 结束 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
-
-            this.BeginInvoke(new Action<string>(msg =>
+            for (int k = 1; k <= n; k++)
             {
-                richTextBox1.AppendText(msg + "\r\n");
-                richTextBox1.ScrollToCaret();
-            }), "子线程 开始 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
+                Thread.Sleep(1000);
+                WriteStr(k);
+            };
 
-            for (int i = 1; i <= n; i++)
-            {
-                //一秒 执行一次
-                await Task.Delay(1000);
-                this.BeginInvoke(updateTxt, " 子线程 读数" + i.ToString() + " 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
-            }
+            this.BeginInvoke(updateTxt, " 子线程 结束 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
+        }
+        //开启线程
+        private void button1_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Text = "";
+            UpdateTxtMethod("主线程 开始 " + "线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
 
-            this.BeginInvoke(new UpdateTxt(msg =>
-            {
-                richTextBox1.AppendText(msg + "\r\n");
-                richTextBox1.ScrollToCaret();
-            }), "子线程 结束 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
+            //ThreadMethodTxt(Convert.ToInt32(textBox1.Text.Trim()));
 
-            return 0;
+            Task.Run(() => { ThreadMethodTxt(Convert.ToInt32(textBox1.Text.Trim())); });
+
+            UpdateTxtMethod("主线程 结束 " + "线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
         }
 
         private void Form2_Load(object sender, EventArgs e)

@@ -1,0 +1,13 @@
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\bin\Debug\MyAdorner.exe
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\bin\Debug\MyAdorner.pdb
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.csprojAssemblyReference.cache
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\Window1.baml
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\Window1.g.cs
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\App.g.cs
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner_MarkupCompile.cache
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.g.resources
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.Properties.Resources.resources
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.csproj.GenerateResource.cache
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.csproj.CoreCompileInputs.cache
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.exe
+E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.pdb

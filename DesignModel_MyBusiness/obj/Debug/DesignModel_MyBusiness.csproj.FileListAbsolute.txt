@@ -1,0 +1,7 @@
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\bin\Debug\DesignModel_MyBusiness.exe.config
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\bin\Debug\DesignModel_MyBusiness.exe
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\bin\Debug\DesignModel_MyBusiness.pdb
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug\DesignModel_MyBusiness.csprojAssemblyReference.cache
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug\DesignModel_MyBusiness.csproj.CoreCompileInputs.cache
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug\DesignModel_MyBusiness.exe
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug\DesignModel_MyBusiness.pdb

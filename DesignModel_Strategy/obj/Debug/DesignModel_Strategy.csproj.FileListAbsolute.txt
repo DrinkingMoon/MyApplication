@@ -1,0 +1,9 @@
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\bin\Debug\DesignModel.exe.config
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\bin\Debug\DesignModel.exe
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\bin\Debug\DesignModel.pdb
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel_Strategy.csprojAssemblyReference.cache
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel.Properties.Resources.resources
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel_Strategy.csproj.GenerateResource.cache
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel_Strategy.csproj.CoreCompileInputs.cache
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel.exe
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel.pdb

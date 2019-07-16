@@ -1,0 +1,7 @@
+E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\bin\Debug\ConsoleThread.exe.config
+E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\bin\Debug\ConsoleThread.exe
+E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\bin\Debug\ConsoleThread.pdb
+E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.csproj.CoreCompileInputs.cache
+E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.exe
+E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.pdb
+E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.csprojAssemblyReference.cache

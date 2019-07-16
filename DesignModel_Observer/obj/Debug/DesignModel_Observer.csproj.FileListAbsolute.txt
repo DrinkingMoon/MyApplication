@@ -1,0 +1,7 @@
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\bin\Debug\DesignModel_Observer.exe.config
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\bin\Debug\DesignModel_Observer.exe
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\bin\Debug\DesignModel_Observer.pdb
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\DesignModel_Observer.csprojAssemblyReference.cache
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\DesignModel_Observer.csproj.CoreCompileInputs.cache
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\DesignModel_Observer.exe
+E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Observer\obj\Debug\DesignModel_Observer.pdb
