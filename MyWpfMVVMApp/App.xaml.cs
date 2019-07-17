@@ -1,4 +1,5 @@
-﻿using MyWpfMVVMApp.Models;
+﻿
+using MyWpfMVVMApp.Common;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -17,6 +18,8 @@ namespace MyWpfMVVMApp
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
+            //(new DataContext()).Database.CreateIfNotExists();
+
             MainWindow fMain = new MainWindow();
             fMain.ShowDialog();
         }

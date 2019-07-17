@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight;
 using MyWpfMVVMApp.Common;
-using MyWpfMVVMApp.Models;
+using MyWpfMVVMApp.Entity;
 
 namespace MyWpfMVVMApp.ViewModel
 {

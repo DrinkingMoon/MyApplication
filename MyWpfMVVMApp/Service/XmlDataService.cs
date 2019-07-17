@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Xml.Linq;
-using MyWpfMVVMApp.Models;
+using MyWpfMVVMApp.Entity;
 using System.Data.Entity;
 
 namespace MyWpfMVVMApp.Service

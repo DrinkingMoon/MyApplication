@@ -3,7 +3,7 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
 using GalaSoft.MvvmLight.Messaging;
 using MyWpfMVVMApp.Common;
-using MyWpfMVVMApp.Models;
+using MyWpfMVVMApp.Entity;
 using MyWpfMVVMApp.Service;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

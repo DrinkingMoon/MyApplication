@@ -18,7 +18,6 @@ E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\bin\Debug\GalaSoft.
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\bin\Debug\MaterialDesignThemes.Wpf.xml
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
-E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVMApp.csprojAssemblyReference.cache
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MainWindow.g.cs
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\PageTwo.g.cs
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\App.g.cs
@@ -29,7 +28,6 @@ E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\App.baml
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MainWindow.baml
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\PageTwo.baml
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVMApp.g.resources
-E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVMApp.Migrations.InitialCreate.resources
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVMApp.Properties.Resources.resources
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVMApp.csproj.GenerateResource.cache
 E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVMApp.csproj.CoreCompileInputs.cache
@@ -74,3 +72,4 @@ D:\workSpace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVM
 D:\workSpace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVMApp.csproj.CopyComplete
 D:\workSpace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVMApp.exe
 D:\workSpace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVMApp.pdb
+E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\MyWpfMVVMApp.csprojAssemblyReference.cache

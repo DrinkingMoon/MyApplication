@@ -1,30 +1,27 @@
-﻿using MyWpfMVVMApp.Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MyWpfMVVMApp.Common;
 
-namespace MyWpfMVVMApp.Models
+namespace MyWpfMVVMApp.Entity
 {
-    public class Dish : RaisePropertyChanged
-    {
-        [Key]
-        public Guid? PKID { get; set; }
 
+    public class Dish : BaseEntity
+    {
         public string Name { get; set; }
 
         public string Category { get; set; }
 
         public string Comment { get; set; }
 
+
         public double? Score { get; set; }
 
         [ForeignKey("Restaurant")]
-        public Guid FKID_Restaurant { get; set; }
+        public string FKID_Restaurant { get; set; }
         public virtual Restaurant Restaurant { get; set; }
     }
 }

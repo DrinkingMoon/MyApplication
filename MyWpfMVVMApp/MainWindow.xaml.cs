@@ -1,5 +1,5 @@
 ﻿using GalaSoft.MvvmLight.Messaging;
-using MyWpfMVVMApp.Models;
+using MyWpfMVVMApp.Entity;
 using MyWpfMVVMApp.ViewModel;
 using System;
 using System.Collections.Generic;

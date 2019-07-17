@@ -1,10 +1,11 @@
-﻿using MyWpfMVVMApp.Models;
+﻿using MyWpfMVVMApp.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+using MyWpfMVVMApp.Common;
 
 namespace MyWpfMVVMApp.Service
 {
@@ -17,57 +18,56 @@ namespace MyWpfMVVMApp.Service
 
         public ICollection<Restaurant> GetList()
         {
-            using (DataContext ctx = new DataContext())
-            {
-                var varData = from a in ctx.Set<Restaurant>().Include(k => k.Dishes)
-                              select a;
 
-                return varData.ToList();
-            }
+            return new MVVMRepository().IQueryable<Restaurant>().ToList();
         }
 
         public void SaveInfo(Restaurant model)
         {
-            using (DataContext ctx = new DataContext())
+            using (var ctx = new MVVMRepository())
             {
+
                 if (model.PKID == null)
                 {
-                    model.PKID = Guid.NewGuid();
-                    ctx.Restaurants.Add(model);
+                    //model.PKID = Guid.NewGuid().ToString();
+                    ctx.Insert(model);
                 }
                 else
                 {
-                    Restaurant tempRes = (from a in ctx.Restaurants
-                                          where a.PKID == model.PKID
-                                          select a).First();
+                    //Restaurant tempRes = (from a in ctx.Restaurants
+                    //                      where a.PKID == model.PKID
+                    //                      select a).First();
 
-                    tempRes.Name = model.Name;
-                    tempRes.PhoneNumber = model.PhoneNumber;
-                    tempRes.Address = model.Address;
+                    //tempRes.Name = model.Name;
+                    //tempRes.PhoneNumber = model.PhoneNumber;
+                    //tempRes.Address = model.Address;
+                    ctx.Update(model);
                 }
 
                 foreach (Dish item in model.Dishes)
                 {
                     if (item.PKID == null)
                     {
-                        item.PKID = Guid.NewGuid();
-                        ctx.Dishes.Add(item);
+                        //item.PKID = Guid.NewGuid().ToString();
+                        //ctx.Dishes.Add(item);
+                        ctx.Insert(item);
                     }
                     else
                     {
-                        Dish tempDish = (from a in ctx.Dishes
-                                         where a.PKID == item.PKID
-                                         select a).First();
+                        //Dish tempDish = (from a in ctx.Dishes
+                        //                 where a.PKID == item.PKID
+                        //                 select a).First();
 
-                        tempDish.Category = item.Category;
-                        tempDish.Comment = item.Comment;
-                        tempDish.Name = item.Name;
-                        tempDish.Score = item.Score;
-                        tempDish.FKID_Restaurant = (Guid)model.PKID;
+                        //tempDish.Category = item.Category;
+                        //tempDish.Comment = item.Comment;
+                        //tempDish.Name = item.Name;
+                        //tempDish.Score = item.Score;
+                        //tempDish.FKID_Restaurant = model.PKID;
+                        ctx.Update(item);
                     }
                 }
 
-                ctx.SaveChanges();
+                ctx.Commit();
             }
         }
     }

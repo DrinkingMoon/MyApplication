@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\workSpace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\
+E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\obj\Debug\
 MyWpfMVVMApp
 none
 false
 DEBUG;TRACE
-D:\workSpace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\App.xaml
+E:\workspace\VisualStudioProjects\MyApplication\MyWpfMVVMApp\App.xaml
 21813885650
 
-20-1815927382
-76-1483216580
+26-296505761
+761329067667
 MainWindow.xaml;PageTwo.xaml;
 
-True
+False
 

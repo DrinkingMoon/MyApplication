@@ -108,15 +108,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Migrations\201907120912593_InitialCreate.cs" />
-    <Compile Include="Migrations\201907120912593_InitialCreate.Designer.cs">
-      <DependentUpon>201907120912593_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\DataContext.cs" />
-    <Compile Include="Models\Dish.cs" />
+    <Compile Include="Common\BaseEntity.cs" />
+    <Compile Include="Common\DataBaseInitializer.cs" />
+    <Compile Include="Common\DataBaseContext.cs" />
+    <Compile Include="Common\IRepositoryBase.cs" />
+    <Compile Include="Common\MVVMRepository.cs" />
+    <Compile Include="Common\Pagination.cs" />
     <Compile Include="Common\RaisePropertyChanged.cs" />
-    <Compile Include="Models\Restaurant.cs" />
+    <Compile Include="Common\MVVMDbContext.cs" />
+    <Compile Include="Common\RepositoryBase.cs" />
+    <Compile Include="Entity\Dish.cs" />
+    <Compile Include="Entity\Restaurant.cs" />
+    <Compile Include="Mapping\DishMap.cs" />
+    <Compile Include="Mapping\RestaurantMap.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PageTwo.xaml.cs">
       <DependentUpon>PageTwo.xaml</DependentUpon>
     </Compile>
@@ -157,9 +162,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Migrations\201907120912593_InitialCreate.resx">
-      <DependentUpon>201907120912593_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
