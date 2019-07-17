@@ -5,3 +5,10 @@ E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleT
 E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.exe
 E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.pdb
 E:\workspace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.csprojAssemblyReference.cache
+D:\workSpace\VisualStudioProjects\MyApplication\ConsoleThread\bin\Debug\ConsoleThread.exe.config
+D:\workSpace\VisualStudioProjects\MyApplication\ConsoleThread\bin\Debug\ConsoleThread.exe
+D:\workSpace\VisualStudioProjects\MyApplication\ConsoleThread\bin\Debug\ConsoleThread.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.csproj.CoreCompileInputs.cache
+D:\workSpace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.exe
+D:\workSpace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\ConsoleThread\obj\Debug\ConsoleThread.csprojAssemblyReference.cache

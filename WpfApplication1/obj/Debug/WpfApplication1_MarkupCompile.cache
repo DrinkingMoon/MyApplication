@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\workspace\VisualStudioProjects\MyApplication\WpfApplication1\obj\Debug\
+D:\workSpace\VisualStudioProjects\MyApplication\WpfApplication1\obj\Debug\
 WpfApplication1
 none
 false
 DEBUG;TRACE
-E:\workspace\VisualStudioProjects\MyApplication\WpfApplication1\App.xaml
+D:\workSpace\VisualStudioProjects\MyApplication\WpfApplication1\App.xaml
 8379227698
 
-12556520545
-141714989630
+131870327901
+14-1901986919
 GridWindow.xaml;MainWindow.xaml;MarkupWindow.xaml;RectangleWindow.xaml;StackPanelWindow.xaml;TypeConverterWindow.xaml;XmlnsWindow.xaml;xNameWindow.xaml;
 
-False
+True
 

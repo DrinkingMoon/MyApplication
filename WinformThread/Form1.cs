@@ -44,7 +44,7 @@ namespace WinformThread
             {   
                 //一秒 执行一次
                 Thread.Sleep(1000);
-                this.BeginInvoke(updateTxt, " 子线程 读数"+ i.ToString() +" 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
+                this.BeginInvoke(updateTxt, "子线程 读数"+ i.ToString() +" 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
             }
 
             this.BeginInvoke(new UpdateTxt(msg =>
@@ -58,7 +58,7 @@ namespace WinformThread
         private void button1_Click(object sender, EventArgs e)
         {
             richTextBox1.Text = "";
-            UpdateTxtMethod("主线程 开始 " + "线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
+            UpdateTxtMethod("主线程 开始 " + " 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
 
             for (int i = 0; i < 3; i++)
             {
@@ -68,7 +68,7 @@ namespace WinformThread
                 }), null);
             }
 
-            UpdateTxtMethod("主线程 结束 " + "线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
+            UpdateTxtMethod("主线程 结束 " + " 线程ID:" + Thread.CurrentThread.ManagedThreadId.ToString());
         }
 
         private void Form1_Load(object sender, EventArgs e)

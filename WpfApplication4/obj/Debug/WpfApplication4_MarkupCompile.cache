@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\workspace\VisualStudioProjects\MyApplication\WpfApplication4\obj\Debug\
+D:\workSpace\VisualStudioProjects\MyApplication\WpfApplication4\obj\Debug\
 WpfApplication4
 none
 false
 DEBUG;TRACE
-E:\workspace\VisualStudioProjects\MyApplication\WpfApplication4\App.xaml
+D:\workSpace\VisualStudioProjects\MyApplication\WpfApplication4\App.xaml
 91032957772
 
-16-2140255437
-141714989630
+17-826448081
+14-1901986919
 AttachedEventWindow.xaml;AttachedProperty.xaml;BindingDataConverter.xaml;CommandWindow.xaml;MainWindow.xaml;MultiBindingWindow.xaml;RoutedEventCustom.xaml;RoutedEventWindow.xaml;MyUserControl.xaml;
 
-False
+True
 

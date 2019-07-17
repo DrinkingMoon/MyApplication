@@ -5,3 +5,9 @@ E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Decorater\obj\Debug\
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Decorater\obj\Debug\DesignModel_Decorater.csproj.CoreCompileInputs.cache
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Decorater\obj\Debug\DesignModel_Decorater.exe
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Decorater\obj\Debug\DesignModel_Decorater.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Decorater\bin\Debug\DesignModel_Decorater.exe.config
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Decorater\bin\Debug\DesignModel_Decorater.exe
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Decorater\bin\Debug\DesignModel_Decorater.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Decorater\obj\Debug\DesignModel_Decorater.csproj.CoreCompileInputs.cache
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Decorater\obj\Debug\DesignModel_Decorater.exe
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Decorater\obj\Debug\DesignModel_Decorater.pdb

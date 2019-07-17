@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\workspace\VisualStudioProjects\MyApplication\SampleNavigationMvvmLight\obj\Debug\
+D:\workSpace\VisualStudioProjects\MyApplication\SampleNavigationMvvmLight\obj\Debug\
 Chargily
 none
 false
 CODE_ANALYSIS;DEBUG;TRACE
-E:\workspace\VisualStudioProjects\MyApplication\SampleNavigationMvvmLight\App.xaml
+D:\workSpace\VisualStudioProjects\MyApplication\SampleNavigationMvvmLight\App.xaml
 41541159788
 
-15541813775
-68-773774598
+16-971364762
+6898254901
 MainWindow.xaml;View\Home.xaml;View\Page2.xaml;View\Page1.xaml;
 
-False
+True
 

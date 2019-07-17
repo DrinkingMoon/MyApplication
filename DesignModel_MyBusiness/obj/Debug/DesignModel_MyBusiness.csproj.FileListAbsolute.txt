@@ -5,3 +5,9 @@ E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug\DesignModel_MyBusiness.csproj.CoreCompileInputs.cache
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug\DesignModel_MyBusiness.exe
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug\DesignModel_MyBusiness.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\bin\Debug\DesignModel_MyBusiness.exe.config
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\bin\Debug\DesignModel_MyBusiness.exe
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\bin\Debug\DesignModel_MyBusiness.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug\DesignModel_MyBusiness.csproj.CoreCompileInputs.cache
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug\DesignModel_MyBusiness.exe
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_MyBusiness\obj\Debug\DesignModel_MyBusiness.pdb

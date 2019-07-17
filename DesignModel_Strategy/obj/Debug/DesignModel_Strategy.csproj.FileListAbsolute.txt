@@ -7,3 +7,11 @@ E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\D
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel_Strategy.csproj.CoreCompileInputs.cache
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel.exe
 E:\workspace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Strategy\bin\Debug\DesignModel.exe.config
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Strategy\bin\Debug\DesignModel.exe
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Strategy\bin\Debug\DesignModel.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel.Properties.Resources.resources
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel_Strategy.csproj.GenerateResource.cache
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel_Strategy.csproj.CoreCompileInputs.cache
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel.exe
+D:\workSpace\VisualStudioProjects\MyApplication\DesignModel_Strategy\obj\Debug\DesignModel.pdb

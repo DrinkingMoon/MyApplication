@@ -11,3 +11,15 @@ E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.cs
 E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.csproj.CoreCompileInputs.cache
 E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.exe
 E:\workspace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\bin\Debug\MyAdorner.exe
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\bin\Debug\MyAdorner.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\Window1.baml
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\Window1.g.cs
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\App.g.cs
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner_MarkupCompile.cache
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.g.resources
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.Properties.Resources.resources
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.csproj.GenerateResource.cache
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.csproj.CoreCompileInputs.cache
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.exe
+D:\workSpace\VisualStudioProjects\MyApplication\MyAdorner\obj\Debug\MyAdorner.pdb

@@ -11,3 +11,16 @@ E:\workspace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\SortListV
 E:\workspace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\SortListView.csproj.CoreCompileInputs.cache
 E:\workspace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\SortListView.exe
 E:\workspace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\SortListView.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\bin\Debug\SortListView.exe
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\bin\Debug\SortListView.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\MainWindow.g.cs
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\App.g.cs
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\SortListView_MarkupCompile.cache
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\SortListView_MarkupCompile.lref
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\MainWindow.baml
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\Themes\Generic.baml
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\SortListView.g.resources
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\SortListView.csproj.CoreCompileInputs.cache
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\SortListView.exe
+D:\workSpace\VisualStudioProjects\MyApplication\SortListView\obj\Debug\SortListView.pdb

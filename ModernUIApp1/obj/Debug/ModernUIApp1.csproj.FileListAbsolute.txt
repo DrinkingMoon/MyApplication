@@ -13,3 +13,17 @@ E:\workspace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\ModernUIA
 E:\workspace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\ModernUIApp1.csproj.CopyComplete
 E:\workspace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\ModernUIApp1.exe
 E:\workspace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\ModernUIApp1.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\bin\Debug\ModernUIApp1.exe
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\bin\Debug\ModernUIApp1.pdb
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\bin\Debug\FirstFloor.ModernUI.dll
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\bin\Debug\FirstFloor.ModernUI.xml
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\MainWindow.baml
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\App.baml
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\MainWindow.g.cs
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\App.g.cs
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\ModernUIApp1_MarkupCompile.cache
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\ModernUIApp1.g.resources
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\ModernUIApp1.csproj.CoreCompileInputs.cache
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\ModernUIApp1.csproj.CopyComplete
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\ModernUIApp1.exe
+D:\workSpace\VisualStudioProjects\MyApplication\ModernUIApp1\obj\Debug\ModernUIApp1.pdb
